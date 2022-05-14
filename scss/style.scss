@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import "variables.scss";
+@import "header.scss";
+@import "nav.scss";
+@import "about.scss";
+@import "experience.scss";
+@import "portfolio.scss";
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    // list-style: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: $color-bg;
+    color: $color-white;
+    background-image: url(../Images/bg-texture.png);
+    
+}
+
+::-webkit-scrollbar {
+    display: none;  
+}
+// GGGGGGGGGGGGGGGGGGG
+.container{
+    margin: 0 auto;
+    width: $container-width-ld;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+h5{
+    font-size: 1rem;
+}
+
+small{
+    font-size: 1rem;
+}
+
+section{
+    margin-top: 4rem;
+}
+section > h2, section > h5{
+    text-align: center;
+    color: $color-light;
+}
+
+section > h2{
+    color: $color-primary;
+    margin-bottom: 3rem;
+}
+
+h5{
+    color: $color-light;
+}
+
+a{
+    color: $color-primary;
+    text-decoration: none;
+    transition: $transition;
+}
+
+a:hover{
+    color: $color-white;
+}
+
+.btn{
+    display: inline-block;
+    color: $color-bg;
+    background-color: $color-primary;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: $transition;
+}
+
+.btn:hover{
+    background: $color-white;
+    color: $color-bg;
+}
+.btn_transparent{
+    display: inline-block;
+    color: $color-primary;
+    background-color: transparent;
+    border: 1px solid $color-primary;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+.btn_transparent:hover{
+    color: $color-primary;
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+// media queries tablette
+
+@media  screen and (max-width: 1024px) {
+    .container{
+        width: $container-width-md;
+    }
+    .about__me{
+        width: 50%;
+    }
+}
+
+// media queries mobile
+
+@media  screen and (max-width: 600px) {
+    .container{
+        width: $container-width-sd;
+    }
+    .about__me{
+        width: 50%;
+    }
+}

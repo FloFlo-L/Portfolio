@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potfolio F.L</title>
+
+    <!-- lier feuille style -->
+    <link rel="stylesheet" href="./scss/style.css">
+
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/aa1fd5a568.js" crossorigin="anonymous"></script>
+
+    
+</head>
+
+<body>
+    <!-- Start header -->
+    <header>
+        <div id ="home" class="container header__container">
+            <h5>Bonjour, je suis</h5>
+            <h1>Florian Lescribaa</h1>
+            <h5>Développeur Web Junior</h5>
+
+            <!-- Download CV -->
+            <div id="testtwo" class="download">
+                <a href="./Images/Florian Lescribaa.pdf" download class="btn">Télécharge mon CV</a>
+            </div>
+
+            <!-- Socials -->
+            <div class="header__socials">
+                <a href="https://github.com/FloFlo-L" target="_blanck">
+                    <i class="fa-brands fa-github fa-xl"></i>
+                </a>
+                <a href="https://www.instagram.com/florian_lesc_it/" target="_blanck">
+                    <i class="fa-brands fa-instagram fa-xl"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-linkedin fa-xl" target="_blanck"></i>
+                </a>
+            </div>
+
+            <div id= "about" class="me">
+                <img src="./Images/1648287013579.png" alt="">
+            </div>            
+        </div>
+    </header>
+    <!-- END header -->
+
+    
+    <nav>
+        <a href="#home" class="select one"> 
+            <i class="fa-solid fa-house"></i>
+        </a>
+        <a href="#abouttt" class="two"> 
+            <i class="fa-solid fa-user"></i>
+        </a>
+        <a href="#experience" class="three"> 
+            <i class="fa-solid fa-keyboard"></i>
+        </a>
+        <a href="#portfolio" class="three"> 
+            <i class="fa-solid fa-book"></i>
+        </a>
+    </nav>
+
+    <section id="about">
+        <h5 id="abouttt">Apprendre</h5>
+        <h2 >A me connaître</h2>
+        <div class="container about__container">
+            <!-- <div class="about__me">
+                <img src="./Images/1648287013590.png" alt="me">
+            </div> -->
+
+            <div class="about__content">
+                <div class="about__cards">
+
+                    <article class="about__card">
+                        <i class="about__icon fa-solid fa-graduation-cap"></i>
+                        <h5>Niveau d'étude</h5>
+                        <small>Bac +2</small>
+                    </article>
+
+                    <article class="about__card">
+                        <i class="about__icon fa-solid fa-folder-open"></i>
+                        <h5>Projets réalisés</h5>
+                        <small>7+</small>
+                    </article>
+                </div>
+
+                <p>
+                    Je suis Florian Lescribaa et je suis passionné par l'informatique depuis mon adolescence.<br><br>
+                    Mon vif intérêt pour le développement web et mobile est apparu pendant mon 
+                    projet tuteuré (DUT) lors de la conception d'une application mobile destinée à contrôler un hyperlapse.<br><br>Aujourd'hui, je suis en formation développeur web  avec Openclassroom (7 projets),
+                    et à l'issue, mon objectif est de poursuivre mes études dans ce domaine par la voie de l'alternance (bac +3).
+
+
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Mes compétences</h2>
+        <div class="container experience__container">
+            <!-- frontend -->
+            <div class="experience_frontend">
+                <h3>Développement Frontend</h3>
+                <div class="experience__content">
+                    <article class="experience__details">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h4>HTML</h4>
+                    </article>
+                    <article class="experience__details">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h4>CSS</h4>
+                    </article>
+                    <article class="experience__details">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h4>SASS</h4>
+                    </article>
+                    <article class="experience__details">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h4>Javascript</h4>
+                    </article>
+                </div>
+            </div>
+            <!-- backend -->
+            <div class="experience_backend">
+                <h3>Développement Backend</h3>
+                <div class="experience__content">
+                    <article class="experience__details">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h4>MySQL</h4>
+                    </article>
+                    <article class="experience__details">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h4>Node.JS</h4>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="portfolio">
+        <h2>Mes derniers projets</h2>
+
+        <div class="container portfolio__container">
+            <article class="portfolio__items">
+                <p class="portfolio__item-para">Transformer une maquette en site web avec HTML & CSS.
+                                                Réalisation d'une page web en desktop-first avec les media queries pour le responsive design.</p>
+                <div class="portfolio__item-image">
+                    <img src="./Images/logo_Booki.png" alt="Booki projet 2">
+                </div>
+                <h3>Projet OpenClassroom</h3>
+                <div class="portfolio__item-cta">
+                    <a href="https://github.com/FloFlo-L/FlorianLescribaa_2_16022022" target="_blanck" class="btn">Github</a>
+                    <a href="https://floflo-l.github.io/FlorianLescribaa_2_16022022/" target="_blanck" class="btn_transparent">Voir</a>
+                </div>
+            </article>
+            <article class="portfolio__items">
+                <p class="portfolio__item-para">Dynamiser une page web avec des animations CSS.
+                                                Développement d'un site first-mobile avec l'utilisation de SASS et de Git pour le versionning.</p>
+                <div class="portfolio__item-image">
+                    <img src="./Images/logo_ohmyfood.png" alt="Ohmyfood projet 3">
+                </div>
+                <h3>Projet OpenClassroom</h3>
+                <div class="portfolio__item-cta">
+                    <a href="https://github.com/FloFlo-L/FlorianLescribaa_3_25022022" target="_blanck" class="btn">Github</a>
+                    <a href="https://floflo-l.github.io/FlorianLescribaa_3_25022022/" target="_blanck" class="btn_transparent">Voir</a>
+                </div>
+            </article>
+            <article class="portfolio__items">
+                <p class="portfolio__item-para">Optimiser un site web existant. Améliorer le SEO l'accessibilité et les performances du site web.
+                                                Réalisation d'un audit et utilsation de l'outil Ligthouse.</p>
+                <div class="portfolio__item-image">
+                    <img src="./Images/logo_la_panthere.png" alt="La Panthère projet 4" class="panthere">
+                </div>
+                <h3>Projet OpenClassroom</h3>
+                <div class="portfolio__item-cta">
+                    <a href="https://github.com/FloFlo-L/P4-Agence-La-Panthere" target="_blanck" class="btn">Github</a>
+                    <a href="https://floflo-l.github.io/P4-Agence-La-Panthere/" target="_blanck" class="btn_transparent">Voir</a>
+                </div>
+            </article>
+            <article class="portfolio__items">
+                <p class="portfolio__item-para">Construire un site e-commerce en JavaScript avec l'utilisation d'une API (GET, POST), de URLSearchParams, du localStorage.</p>
+                <div class="portfolio__item-image">
+                    <img src="./Images/canap.png" alt="La Panthère projet 5" >
+                </div>
+                <h3>Projet OpenClassroom</h3>
+                <div class="portfolio__item-cta">
+                    <a href="https://github.com/FloFlo-L/Kanap_P5" target="_blanck" class="btn">Github</a>
+                    <a href="https://floflo-l.github.io/Kanap_P5/" target="_blanck" class="btn_transparent">Voir</a>
+                </div>
+            </article>
+            <article class="portfolio__items"> 
+                <p class="portfolio__item-para">Construire une API sécurisée pour une application d'avis gastronomique.<br><br>En cours</p>
+                <div class="portfolio__item-image">
+                    <img src="./Images/piiquante.png" alt="La Panthère projet 4">
+                </div>
+                <h3>Projet OpenClassroom</h3>
+                <div class="portfolio__item-cta">
+                    <!-- <a href="" class="btn">Non</a>
+                    <a href="" class="btn_transparent">Disponible</a> -->
+                </div>
+            </article>
+            <article class="portfolio__items">
+                <p class="portfolio__item-para">Création d'un réseau social d'entreprise.<br><br>En cours</p>
+                <div class="portfolio__item-image">
+                    <img src="./Images/icon-left-font-monochrome-black.png" alt="La Panthère projet 4" class="test">
+                </div>
+                <h3>Projet OpenClassroom</h3>
+                <div class="portfolio__item-cta">
+                    <!-- <a href="" class="btn">Non</a>
+                    <a href="" class="btn_transparent">Disponible</a> -->
+                </div>
+            </article>
+            
+        </div>
+
+    </section>
+    
+    
+
+    
+</body>
+
+</script>
+</html>
