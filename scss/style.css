@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-p {
+.attention {
   color: #ff0000;
   font-size: 36px;
   text-align: center;
@@ -115,7 +115,6 @@ nav a:hover {
 }
 .about__content p {
   margin: 0;
-  font-size: 20px;
   color: rgba(255, 255, 255, 0.6);
 }
 .about__content .about__cards {
@@ -263,7 +262,6 @@ nav a:hover {
   margin: 1rem 0 2rem;
 }
 .portfolio__container .portfolio__item-para {
-  font-size: 18px;
   text-align: center;
   display: none;
   color: #ffffff;
