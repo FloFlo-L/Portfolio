@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-@import "variables.scss";
-@import "header.scss";
-@import "nav.scss";
-@import "about.scss";
-@import "experience.scss";
-@import "portfolio.scss";
+@import "./variables";
+@import "./header";
+@import "./nav";
+@import "./about";
+@import "./experience";
+@import "./portfolio";
 
 body{
     margin: 0;
