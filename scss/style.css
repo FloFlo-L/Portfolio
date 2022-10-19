@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-header {
-  overflow: hidden;
-}
-header p {
+p {
   color: #ff0000;
   font-size: 36px;
   text-align: center;
+}
+
+header {
+  overflow: hidden;
 }
 header .header__container {
   text-align: center;
